@@ -1,0 +1,66 @@
+.header {
+  top: 25px;
+  right: 0;
+  left: 0;
+}
+
+.header-content {
+  @include media("tablet-2") {
+    display: block;
+  }
+}
+
+.menu {
+  font-size: 11px;
+
+  @include media("tablet-2") {
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+  @include media("phone") {
+    display: block;
+    font-weight: 700;
+  }
+}
+
+.menu-item {
+  @include media("phone") {
+    margin: 0;
+  }
+}
+
+.logo {
+  @include media("phone") {
+    margin: 0 0 17px;
+  }
+}
+
+.logo-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-list {
+  @include media("phone") {
+    display: block;
+  }
+}
+
+.search {
+  width: 248px;
+  height: 25px;
+
+  padding: 5px 10px;
+
+  border-radius: 50px;
+
+  @include media("phone") {
+    width: 100%;
+  }
+}
+
+.search::placeholder {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #757575;
+}

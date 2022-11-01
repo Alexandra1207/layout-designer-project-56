@@ -1,0 +1,56 @@
+.banner {
+  padding: 200px 0;
+  @include media("phone") {
+    padding-top: 250px;
+  }
+}
+
+@include img("banner");
+
+.banner-subtitle {
+  @include media("tablet") {
+    margin-bottom: 16px;
+  }
+}
+
+.form-access {
+  max-width: 570px;
+  width: 100%;
+}
+
+.input {
+  &-border {
+    border: 2px solid $grey;
+    border-radius: 3px;
+  }
+
+  &-access {
+    min-width: 270px;
+    min-height: 50px;
+
+    padding-left: 20px;
+
+    @include media("tablet") {
+      width: 100%;
+    }
+  }
+  &-name {
+    @include media("tablet") {
+      margin: 0 0 24px 0;
+    }
+  }
+}
+
+.input-access::placeholder {
+  color: $white;
+  font: bold 14px/16px "Roboto" sans-serif;
+}
+
+.form-info {
+  margin-bottom: 1.5rem;
+}
+
+.access-btn {
+  padding: 20px 30px;
+  font-size: 13px;
+}

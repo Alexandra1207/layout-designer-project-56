@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font: 400 16px/1.5 Roboto, sans-serif;
+  color: $grey;
+  background-color: $black;
+  @include media("phone") {
+    font-size: 16px;
+  }
+}
+
+main {
+  flex-grow: 1;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class],
+button {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+}
+
+h1,
+h2 {
+  line-height: 1.5;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 60px;
+  @include media("tablet-2") {
+    font-size: 45px;
+  }
+  @include media("tablet") {
+    font-size: 40px;
+  }
+  @include media("phone") {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  @include media("tablet-2") {
+    font-size: 28px;
+  }
+  @include media("phone") {
+    font-size: 18px;
+  }
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  @include media("phone") {
+    font-size: 16px;
+  }
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  @include media("phone") {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 12.8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+}
