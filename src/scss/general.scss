@@ -5,6 +5,9 @@ html {
 body {
   display: flex;
   flex-direction: column;
+
+  margin: 0;
+
   font: 400 16px/1.5 Roboto, sans-serif;
   color: $grey;
   background-color: $black;
@@ -23,38 +26,9 @@ main {
   box-sizing: inherit;
 }
 
-ul[class],
-ol[class],
-button {
-  padding: 0;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-ul[class] {
-  list-style: none;
-}
-
 img {
   max-width: 100%;
-  display: block;
+  object-fit: contain;
 }
 
 input,
@@ -70,13 +44,7 @@ button {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
-}
-
-button {
-  background-color: transparent;
-  border: 0;
 }
 
 h1,
@@ -110,7 +78,8 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 24px;
+  line-height: 1.5;
   font-weight: 400;
   @include media("phone") {
     font-size: 16px;
