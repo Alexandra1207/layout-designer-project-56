@@ -5,7 +5,7 @@
   }
 }
 
-@include img("banner");
+@include img("bg-banner");
 
 .banner-subtitle {
   @include media("tablet") {

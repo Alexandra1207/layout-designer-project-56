@@ -1,0 +1,36 @@
+.app-wrapper {
+  @include media("tablet") {
+    flex-direction: column;
+    order: -1;
+  }
+}
+
+.app-content {
+  max-width: 600px;
+  width: 100%;
+  @include media("tablet") {
+    margin: 0 auto;
+  }
+}
+
+.download-btn {
+  padding: 16px 40px;
+  border-radius: 32px;
+}
+
+.app-img {
+  margin-right: 123px;
+  @include media("desktop") {
+    margin-right: 0;
+  }
+  @include media("tablet") {
+    order: -1;
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  @include media("phone") {
+    width: 333px;
+    height: 278px;
+  }
+}
