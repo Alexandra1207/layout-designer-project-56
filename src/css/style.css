@@ -21,8 +21,6 @@
 }
 
 .btn {
-  width: 100%;
-  padding: 20px 30px;
   border-radius: 5px;
   color: #fff;
   text-transform: uppercase;
@@ -194,6 +192,10 @@ h6 {
   gap: 20px;
 }
 
+.gap-50 {
+  gap: 50px;
+}
+
 .ls-none {
   list-style: none;
 }
@@ -302,6 +304,10 @@ h6 {
   padding: 20px 30px;
 }
 
+.p-16-30 {
+  padding: 16px 30px;
+}
+
 .orange {
   color: #f89202;
 }
@@ -332,6 +338,17 @@ h6 {
 
 .border-white {
   border: 1px solid #fff;
+}
+
+.fz-13 {
+  font-size: 12.8px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 992px) {
+  .order-1 {
+    order: -1;
+  }
 }
 
 .header {
@@ -368,14 +385,14 @@ h6 {
   }
 }
 
-.menu-active {
-  color: #fff;
+@media only screen and (max-width: 560px) {
+  .header-logo {
+    margin-bottom: 16px;
+  }
 }
 
-@media only screen and (max-width: 560px) {
-  .logo {
-    margin: 0 0 17px;
-  }
+.menu-active {
+  color: #fff;
 }
 
 .logo-icon {
@@ -518,6 +535,101 @@ h6 {
 
 .pricing-footer {
   font-size: 12.8px;
+}
+
+@media only screen and (max-width: 992px) {
+  .news-item {
+    flex-direction: column;
+  }
+}
+
+.new-title {
+  font-size: 30px;
+}
+@media only screen and (max-width: 560px) {
+  .new-title {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .new {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .new {
+    text-align: start;
+  }
+}
+
+.new-box {
+  max-width: 575px;
+  width: 100%;
+  height: 286px;
+}
+@media only screen and (max-width: 560px) {
+  .new-box {
+    height: 256px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .new-img {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .new-img {
+    width: 376px;
+    height: 186px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .new-title {
+    margin-bottom: 16px;
+  }
+}
+
+.box-date {
+  font-size: 12px;
+}
+@media only screen and (max-width: 1200px) {
+  .box-date {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .box-date {
+    justify-content: start;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .box-date {
+    align-items: flex-start;
+  }
+}
+
+.logo-icon-new {
+  width: 19px;
+  height: 19px;
+}
+
+.album-link {
+  display: inline-block;
+  padding: 17px 31px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1200px) {
+  .new-2order {
+    order: 2;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

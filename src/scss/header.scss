@@ -28,15 +28,14 @@
     margin: 0;
   }
 }
+.header-logo {
+  @include media("phone"){
+    margin-bottom: 16px;
+  }
+}
 
 .menu-active {
   color: $white;
-}
-
-.logo {
-  @include media("phone") {
-    margin: 0 0 17px;
-  }
 }
 
 .logo-icon {
