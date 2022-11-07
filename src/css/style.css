@@ -183,7 +183,8 @@ h6 {
   flex-wrap: wrap;
 }
 
-.align-items-center {
+.flex-center {
+  display: flex;
   align-items: center;
 }
 
@@ -341,6 +342,10 @@ h6 {
 
 .bg-dark-orange {
   background-color: #95390c;
+}
+
+.bg-purple {
+  background-color: #5328a1;
 }
 
 .br-5 {
@@ -689,6 +694,42 @@ h6 {
     width: 333px;
     height: 278px;
   }
+}
+
+.artist-banner {
+  padding: 250px 0 223px;
+}
+@media only screen and (max-width: 560px) {
+  .artist-banner {
+    padding-top: 225px;
+  }
+}
+
+.morten-harket {
+  background-image: url("../images/morten-harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 560px) {
+  .btn-block {
+    flex-direction: column;
+  }
+}
+
+.artist-btn {
+  width: 200px;
+}
+
+@media only screen and (max-width: 560px) {
+  .mix-btn {
+    margin: 0 0 27px;
+  }
+}
+
+.img-btn {
+  width: 20px;
+  height: 20px;
 }
 
 .footer-top {
