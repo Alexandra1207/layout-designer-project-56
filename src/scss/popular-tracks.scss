@@ -1,0 +1,17 @@
+.popular-tracks-content {
+  @include media("tablet") {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @include media("phone") {
+    margin-right: 0;
+  }
+}
+
+.popular-track-img {
+  width: 55px;
+  height: 55px;
+}
+
+.track-title {
+  font-weight: 700;
+}

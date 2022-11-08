@@ -35,6 +35,16 @@
   gap: 50px;
 }
 
+.grid-50-25 {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
+}
+
+.repeat-2-1fr {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .ls-none {
   list-style: none;
 }
@@ -77,6 +87,10 @@
 
 .mr-24 {
   margin-right: 24px;
+}
+
+.mr-50 {
+  margin-right: 50px;
 }
 
 .mr-90 {
@@ -160,6 +174,10 @@
 
 .text-white {
   color: $white;
+}
+
+.text-light-grey {
+  color: $light-grey;
 }
 
 .bg-transparent {
