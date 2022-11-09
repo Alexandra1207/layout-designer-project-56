@@ -45,6 +45,10 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+.repeat-4-1fr {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .ls-none {
   list-style: none;
 }
@@ -211,6 +215,10 @@
 .fz-13 {
   font-size: 12.8px;
   line-height: 1.5;
+}
+
+.fw-700 {
+  font-weight: 700;
 }
 
 .order-1 {

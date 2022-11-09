@@ -192,6 +192,10 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.repeat-4-1fr {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .ls-none {
   list-style: none;
 }
@@ -359,6 +363,10 @@ h3 {
 .fz-13 {
   font-size: 12.8px;
   line-height: 1.5;
+}
+
+.fw-700 {
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 992px) {
@@ -748,8 +756,42 @@ h3 {
   height: 55px;
 }
 
-.track-title {
-  font-weight: 700;
+@media only screen and (max-width: 1200px) {
+  .discography-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .discography-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.discography-img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 992px) {
+  .discography-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .discography-img {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+.disc-title {
+  font-size: 18px;
+}
+@media only screen and (max-width: 560px) {
+  .disc-title {
+    font-weight: normal;
+  }
 }
 
 .footer-top {
