@@ -4,6 +4,7 @@
 }
 
 .footer-list {
+  margin: 12px 0 25px;
   row-gap: 30px;
   @include media("desktop") {
     justify-content: space-around;
@@ -13,6 +14,7 @@
     align-items: center;
   }
   @include media("phone") {
+    margin-top: 16px;
     align-items: flex-start;
   }
 }
@@ -48,6 +50,7 @@
 }
 
 .footer-nav {
+  margin-top: 8px;
   @include media("tablet-2") {
     justify-content: center;
   }
