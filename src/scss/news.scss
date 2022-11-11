@@ -31,14 +31,14 @@
 }
 
 .new-img {
-  @include media("desktop") {
-    margin-bottom: 50px;
-  }
+  width: 575px;
+  height: 286px;
   @include media("phone") {
     width: 376px;
     height: 186px;
   }
 }
+
 .new-title {
   @include media("phone") {
     margin-bottom: 16px;

@@ -1,7 +1,7 @@
 .banner {
   padding: 200px 0;
   @include media("phone") {
-    padding-top: 250px;
+    padding-top: 247px;
   }
 }
 
@@ -43,7 +43,7 @@
 
 .input-access::placeholder {
   color: $white;
-  font: bold 14px/16px "Roboto" sans-serif;
+  font: bold 14px/16px "Roboto", sans-serif;
 }
 
 .form-info {

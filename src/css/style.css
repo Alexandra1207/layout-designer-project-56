@@ -416,6 +416,11 @@ h3 {
   right: 0;
   left: 0;
 }
+@media only screen and (max-width: 560px) {
+  .header {
+    top: 23px;
+  }
+}
 
 @media only screen and (max-width: 992px) {
   .header-content {
@@ -489,7 +494,7 @@ h3 {
 }
 @media only screen and (max-width: 560px) {
   .banner {
-    padding-top: 250px;
+    padding-top: 247px;
   }
 }
 
@@ -532,7 +537,7 @@ h3 {
 
 .input-access::placeholder {
   color: #fff;
-  font: bold 14px/16px "Roboto" sans-serif;
+  font: bold 14px/16px "Roboto", sans-serif;
 }
 
 .form-info {
@@ -636,10 +641,9 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .new-img {
-    margin-bottom: 50px;
-  }
+.new-img {
+  width: 575px;
+  height: 286px;
 }
 @media only screen and (max-width: 560px) {
   .new-img {
