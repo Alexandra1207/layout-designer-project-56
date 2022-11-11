@@ -545,7 +545,7 @@ h3 {
 }
 
 .pricing-item {
-  max-width: 370px;
+  max-width: 368px;
   width: 100%;
   height: 615px;
   padding: 1.5rem;
@@ -737,7 +737,7 @@ h3 {
 }
 
 .artist-banner {
-  padding: 250px 0 223px;
+  padding: 200px 0 200px;
 }
 @media only screen and (max-width: 560px) {
   .artist-banner {
@@ -815,7 +815,7 @@ h3 {
 }
 
 .footer-top {
-  padding: 3rem 0;
+  padding: 45px 0 58px;
   border-bottom: 1px solid #cacaca;
 }
 
@@ -871,7 +871,7 @@ h3 {
 }
 
 .footer-bottom {
-  padding: 2rem 0;
+  padding: 24px 0 31px;
 }
 
 @media only screen and (max-width: 992px) {

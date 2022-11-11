@@ -10,7 +10,7 @@
 
   <body>
     <header class="header absolute ttu">
-      <div class="container flex-center space-between header-content">
+      <div class="container flex-center space-between header-content p-0-20">
         <nav class="menu flex-center text-grey">
           <a href="#" class="header-logo ttu flex-center mr-90 td-none">
             <img class="logo-icon mr-16" src="images/logo.svg" alt="логотип" />
@@ -18,13 +18,13 @@
           </a>
           <ul class="menu-list flex ls-none m-0 p-0">
             <li class="menu-item mr-24">
-              <a class="td-none" href="index.html">Главная</a>
+              <a class="td-none menu-active" href="#">Главная</a>
             </li>
             <li class="menu-item mr-24">
               <a class="td-none" href="#">Каталог</a>
             </li>
-            <li class="menu-item mr-24 menu-active">
-              <a class="td-none" href="#">Исполнители</a>
+            <li class="menu-item mr-24">
+              <a class="td-none" href="artist.html">Исполнители</a>
             </li>
             <li class="menu-item">
               <a class="td-none" href="#">Контакты</a>
@@ -42,13 +42,12 @@
         </form>
       </div>
     </header>
-
     <main>
       <section
         class="artist-banner morten-harket text-white"
         id="page-description"
       >
-        <div class="container">
+        <div class="container p-0-20">
           <h1 class="m-0">Morten Harket</h1>
           <p class="mb-48">24 875 поклонников</p>
 
@@ -79,8 +78,8 @@
         </div>
       </section>
 
-      <section class="pt-100" id="page-popular-track">
-        <div class="container">
+      <div class="container">
+        <section class="p-100-20-0" id="page-popular-track">
           <h2 class="mt-0 mb-48">Популярные треки</h2>
           <div class="popular-tracks-content grid-50-25 text-light-grey">
             <div class="flex-center">
@@ -173,11 +172,9 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="pt-100" id="page-discography">
-        <div class="container">
+        <section class="p-100-20-0" id="page-discography">
           <h2 class="mb-48 mt-0">Дискография</h2>
           <div
             class="discography-content text-light-grey grid-50-25 repeat-4-250"
@@ -254,11 +251,9 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="pt-100 mb-100" id="page-similar">
-        <div class="container">
+        <section class="p-100-20-0 mb-100" id="page-similar">
           <h2 class="mt-0 mb-48">Похожие исполнители</h2>
           <div
             class="similar-artists-content text-light-grey grid-50-25 repeat-4-250"
@@ -359,13 +354,13 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <footer class="bg-gradient">
       <div class="footer-top">
-        <div class="container">
+        <div class="container p-0-20">
           <ul class="footer-list flex flex-wrap space-between ls-none p-0">
             <li class="footer-item">
               <h2 class="footer-title mt-0">О нас</h2>
@@ -427,7 +422,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <div class="container">
+        <div class="container p-0-20">
           <ul class="footer-nav flex ls-none p-0">
             <li class="footer-nav-item mr-16">
               <a href="#" class="td-none text-light-grey">Магазин</a>
