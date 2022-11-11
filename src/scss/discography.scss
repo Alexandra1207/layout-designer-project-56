@@ -1,28 +1,3 @@
-.discography-content {
-  @include media("desktop") {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  @include media("tablet") {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.discography-img {
-  width: 250px;
-  height: 250px;
-
-  margin-bottom: 12px;
-  @include media("tablet-2") {
-    width: 200px;
-    height: 200px;
-  }
-
-  @include media("phone") {
-    width: 137px;
-    height: 137px;
-  }
-}
-
 .disc-title {
   font-size: 18px;
   @include media("phone") {

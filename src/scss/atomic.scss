@@ -41,12 +41,19 @@
   grid-row-gap: 25px;
 }
 
-.repeat-2-1fr {
-  grid-template-columns: repeat(2, 1fr);
-}
+.repeat-4-250 {
+  grid-template-columns: repeat(4, 250px);
+  @include media("desktop") {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-.repeat-4-1fr {
-  grid-template-columns: repeat(4, 1fr);
+  @include media("tablet") {
+    grid-template-columns: repeat(3, 137px);
+  }
+
+  @include media("phone") {
+    grid-template-columns: repeat(2, 137px);
+  }
 }
 
 .ls-none {
@@ -93,9 +100,6 @@
   margin-right: 24px;
 }
 
-.mr-50 {
-  margin-right: 50px;
-}
 
 .mr-90 {
   margin-right: 90px;

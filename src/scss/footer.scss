@@ -1,12 +1,10 @@
 .footer-top {
   padding: 3rem 0;
   border-bottom: 1px solid $grey;
-  @include media("desktop") {
-    padding-bottom: calc(3rem - 30px);
-  }
 }
 
 .footer-list {
+  row-gap: 30px;
   @include media("desktop") {
     justify-content: space-around;
   }
@@ -22,9 +20,6 @@
 .footer-item {
   max-width: 270px;
   width: 100%;
-  @include media("desktop") {
-    margin-bottom: 30px;
-  }
   @include media("tablet-2") {
     text-align: center;
   }

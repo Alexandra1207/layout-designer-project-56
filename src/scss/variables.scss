@@ -70,3 +70,16 @@ $breakpoints: (
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
+.artist-img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 12px;
+  @include media("tablet-2") {
+    width: 200px;
+    height: 200px;
+  }
+  @include media("tablet") {
+    width: 137px;
+    height: 137px;
+  }
+}

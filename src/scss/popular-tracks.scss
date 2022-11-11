@@ -1,4 +1,11 @@
 .popular-tracks-content {
+  grid-template-columns: repeat(2, 550px);
+  @include media("desktop") {
+    grid-template-columns: repeat(2, 450px);
+  }
+  @include media("tablet-2") {
+    grid-template-columns: repeat(2, 1fr);
+  }
   @include media("tablet") {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -11,5 +18,4 @@
   width: 55px;
   height: 55px;
 }
-
 
