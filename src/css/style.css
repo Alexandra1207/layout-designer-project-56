@@ -737,7 +737,7 @@ h3 {
 }
 
 .artist-banner {
-  padding: 250px 0 200px;
+  padding: 250px 0 225px;
 }
 @media only screen and (max-width: 560px) {
   .artist-banner {
@@ -815,7 +815,7 @@ h3 {
 }
 
 .footer-top {
-  padding: 45px 0 58px;
+  padding: 3rem 0;
   border-bottom: 1px solid #cacaca;
 }
 
@@ -871,7 +871,7 @@ h3 {
 }
 
 .footer-bottom {
-  padding: 24px 0 31px;
+  padding: 2rem 0;
 }
 
 @media only screen and (max-width: 992px) {
