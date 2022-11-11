@@ -446,6 +446,7 @@ h3 {
 
 @media only screen and (max-width: 560px) {
   .menu-item {
+    line-height: 15.25px;
     margin: 0;
   }
 }
@@ -547,6 +548,7 @@ h3 {
 .access-btn {
   padding: 20px 30px;
   font-size: 13px;
+  line-height: 17px;
 }
 
 .pricing-item {
@@ -824,7 +826,7 @@ h3 {
 }
 
 .footer-list {
-  margin: 12px 0 25px;
+  margin: 12px 0 26px;
   row-gap: 30px;
 }
 @media only screen and (max-width: 1200px) {
@@ -885,7 +887,7 @@ h3 {
 }
 
 .footer-nav {
-  margin-top: 8px;
+  margin: 8px 0 17px;
 }
 @media only screen and (max-width: 992px) {
   .footer-nav {

@@ -4,7 +4,7 @@
 }
 
 .footer-list {
-  margin: 12px 0 25px;
+  margin: 12px 0 26px;
   row-gap: 30px;
   @include media("desktop") {
     justify-content: space-around;
@@ -54,7 +54,7 @@
 }
 
 .footer-nav {
-  margin-top: 8px;
+  margin: 8px 0 17px;
   @include media("tablet-2") {
     justify-content: center;
   }
