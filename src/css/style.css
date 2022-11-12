@@ -495,7 +495,7 @@ h3 {
 }
 @media only screen and (max-width: 560px) {
   .banner {
-    padding-top: 250px;
+    padding-top: 247px;
   }
 }
 
@@ -554,6 +554,12 @@ h3 {
   line-height: 17px;
 }
 
+@media only screen and (max-width: 560px) {
+  .pricing-title {
+    margin-bottom: 47px;
+  }
+}
+
 .pricing-item {
   max-width: 366.66px;
   width: 100%;
@@ -598,6 +604,11 @@ h3 {
   .pricing-types {
     justify-content: space-evenly;
     gap: 50px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .pricing-types {
+    margin-bottom: 40px;
   }
 }
 

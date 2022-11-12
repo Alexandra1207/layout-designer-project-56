@@ -1,3 +1,9 @@
+.pricing-title {
+  @include media("phone") {
+    margin-bottom: 47px;
+  }
+}
+
 .pricing-item {
   max-width: 366.66px;
   width: 100%;
@@ -10,9 +16,9 @@
     height: 595px;
     padding-top: 16px;
   }
-   @include media("phone") {
+  @include media("phone") {
     max-width: 374px;
-   }
+  }
 }
 
 @include img("subscribe_1");
@@ -24,6 +30,9 @@
   @include media("desktop") {
     justify-content: space-evenly;
     gap: 50px;
+  }
+  @include media("phone") {
+    margin-bottom: 40px;
   }
 }
 
