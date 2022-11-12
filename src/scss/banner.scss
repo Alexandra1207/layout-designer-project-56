@@ -1,13 +1,14 @@
 .banner {
   padding: 200px 0;
   @include media("phone") {
-    padding-top: 247px;
+    padding-top: 250px;
   }
 }
 
 @include img("bg-banner");
 
 .banner-subtitle {
+  margin: 0 0 32px;
   @include media("tablet") {
     margin-bottom: 16px;
   }

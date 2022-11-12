@@ -495,7 +495,7 @@ h3 {
 }
 @media only screen and (max-width: 560px) {
   .banner {
-    padding-top: 247px;
+    padding-top: 250px;
   }
 }
 
@@ -505,6 +505,9 @@ h3 {
   background-size: cover;
 }
 
+.banner-subtitle {
+  margin: 0 0 32px;
+}
 @media only screen and (max-width: 768px) {
   .banner-subtitle {
     margin-bottom: 16px;
@@ -552,7 +555,7 @@ h3 {
 }
 
 .pricing-item {
-  max-width: 368px;
+  max-width: 366.66px;
   width: 100%;
   height: 615px;
   padding: 1.5rem;
@@ -562,6 +565,11 @@ h3 {
   .pricing-item {
     height: 595px;
     padding-top: 16px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .pricing-item {
+    max-width: 374px;
   }
 }
 
@@ -583,6 +591,9 @@ h3 {
   background-size: cover;
 }
 
+.pricing-types {
+  margin-bottom: 43px;
+}
 @media only screen and (max-width: 1200px) {
   .pricing-types {
     justify-content: space-evenly;
@@ -822,7 +833,12 @@ h3 {
 
 .footer-top {
   padding: 3rem 0;
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 2px solid #cacaca;
+}
+@media only screen and (max-width: 560px) {
+  .footer-top {
+    border-bottom: 1px solid #cacaca;
+  }
 }
 
 .footer-list {
@@ -867,6 +883,15 @@ h3 {
   line-height: 27px;
 }
 
+.address {
+  font-size: 15px;
+}
+@media only screen and (max-width: 560px) {
+  .address {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .social {
     justify-content: center;
@@ -880,6 +905,11 @@ h3 {
 
 .social-title {
   margin-bottom: 19px;
+}
+@media only screen and (max-width: 560px) {
+  .social-title {
+    margin-bottom: 17px;
+  }
 }
 
 .footer-bottom {
@@ -897,6 +927,7 @@ h3 {
 @media only screen and (max-width: 560px) {
   .footer-nav {
     flex-direction: column;
+    margin: 7px 0 16px;
   }
 }
 
