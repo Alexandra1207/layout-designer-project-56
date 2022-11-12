@@ -495,7 +495,7 @@ h3 {
 }
 @media only screen and (max-width: 560px) {
   .banner {
-    padding-top: 247px;
+    padding: 247px 0 204px;
   }
 }
 
@@ -561,7 +561,7 @@ h3 {
 }
 
 .pricing-item {
-  max-width: 366.66px;
+  max-width: 367px;
   width: 100%;
   height: 615px;
   padding: 1.5rem;
@@ -595,6 +595,14 @@ h3 {
   background-image: url("../images/subscribe_3.png");
   background-position: center;
   background-size: cover;
+}
+
+@media only screen and (max-width: 560px) {
+  .subscribe_1,
+.subscribe_2,
+.subscribe_3 {
+    background-position: top;
+  }
 }
 
 .pricing-types {
