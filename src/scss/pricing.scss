@@ -1,7 +1,5 @@
 .pricing-title {
-  @include media("phone") {
-    margin-bottom: 47px;
-  }
+  margin-bottom: 47px;
 }
 
 .pricing-item {
@@ -34,7 +32,7 @@
 }
 
 .pricing-types {
-  margin-bottom: 43px;
+  margin-bottom: 41px;
   @include media("desktop") {
     justify-content: space-evenly;
     gap: 50px;

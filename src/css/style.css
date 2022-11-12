@@ -439,7 +439,9 @@ h3 {
 }
 @media only screen and (max-width: 560px) {
   .menu {
-    display: block;
+    flex-direction: column;
+    row-gap: 3px;
+    align-items: flex-start;
     font-weight: 700;
   }
 }
@@ -453,7 +455,7 @@ h3 {
 
 @media only screen and (max-width: 560px) {
   .header-logo {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
   }
 }
 
@@ -554,10 +556,8 @@ h3 {
   line-height: 17px;
 }
 
-@media only screen and (max-width: 560px) {
-  .pricing-title {
-    margin-bottom: 47px;
-  }
+.pricing-title {
+  margin-bottom: 47px;
 }
 
 .pricing-item {
@@ -606,7 +606,7 @@ h3 {
 }
 
 .pricing-types {
-  margin-bottom: 43px;
+  margin-bottom: 41px;
 }
 @media only screen and (max-width: 1200px) {
   .pricing-types {

@@ -21,7 +21,9 @@
     margin-bottom: 18px;
   }
   @include media("phone") {
-    display: block;
+    flex-direction: column;
+    row-gap: 3px;
+    align-items: flex-start;
     font-weight: 700;
   }
 }
@@ -34,7 +36,7 @@
 }
 .header-logo {
   @include media("phone"){
-    margin-bottom: 16px;
+    margin-bottom: 15px;
   }
 }
 
