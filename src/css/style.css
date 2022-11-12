@@ -434,7 +434,7 @@ h3 {
 @media only screen and (max-width: 992px) {
   .menu {
     justify-content: space-between;
-    margin-bottom: 18px;
+    margin-bottom: 17px;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -497,7 +497,7 @@ h3 {
 }
 @media only screen and (max-width: 560px) {
   .banner {
-    padding: 247px 0 204px;
+    padding: 246px 0 205px;
   }
 }
 
