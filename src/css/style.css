@@ -429,7 +429,7 @@ h3 {
 @media only screen and (max-width: 992px) {
   .menu {
     justify-content: space-between;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -564,7 +564,7 @@ h3 {
 @media only screen and (max-width: 1200px) {
   .pricing-item {
     height: 595px;
-    padding-top: 16px;
+    padding-top: 15px;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -622,6 +622,12 @@ h3 {
   font-size: 32px;
   line-height: 1.5;
   vertical-align: top;
+}
+
+@media only screen and (max-width: 1200px) {
+  .pricing-link {
+    margin-bottom: 63px;
+  }
 }
 
 .pricing-footer {

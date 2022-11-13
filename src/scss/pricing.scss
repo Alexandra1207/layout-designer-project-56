@@ -12,7 +12,8 @@
   border-radius: 1rem;
   @include media("desktop") {
     height: 595px;
-    padding-top: 16px;
+    // padding-top: 16px;
+    padding-top: 15px;
   }
   @include media("phone") {
     max-width: 374px;
@@ -50,6 +51,12 @@
     font-size: 32px;
     line-height: 1.5;
     vertical-align: top;
+  }
+}
+
+.pricing-link {
+  @include media("desktop") {
+    margin-bottom: 63px;
   }
 }
 
