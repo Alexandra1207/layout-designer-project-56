@@ -429,7 +429,6 @@ h3 {
 @media only screen and (max-width: 992px) {
   .menu {
     justify-content: space-between;
-    margin-bottom: 15px;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -447,12 +446,6 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 560px) {
-  .header-logo {
-    margin-bottom: 15px;
-  }
-}
-
 .menu-active {
   color: #fff;
 }
@@ -465,6 +458,7 @@ h3 {
 @media only screen and (max-width: 560px) {
   .menu-list {
     display: block;
+    margin: 11px 0;
   }
 }
 
@@ -563,7 +557,6 @@ h3 {
 }
 @media only screen and (max-width: 1200px) {
   .pricing-item {
-    height: 595px;
     padding-top: 15px;
   }
 }
