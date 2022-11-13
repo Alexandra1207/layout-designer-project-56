@@ -429,6 +429,7 @@ h3 {
 @media only screen and (max-width: 992px) {
   .menu {
     justify-content: space-between;
+    margin-bottom: 17px;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -443,12 +444,6 @@ h3 {
 @media only screen and (max-width: 560px) {
   .menu-item {
     margin: 0;
-  }
-}
-
-@media only screen and (max-width: 560px) {
-  .header-logo {
-    margin-bottom: 15px;
   }
 }
 
@@ -562,17 +557,14 @@ h3 {
 }
 @media only screen and (max-width: 1200px) {
   .pricing-item {
-    padding-top: 15px;
+    height: 595px;
+    padding-top: 16px;
   }
 }
 @media only screen and (max-width: 560px) {
   .pricing-item {
     max-width: 374px;
   }
-}
-
-#page-pricing > div > div.pricing-item.subscribe_1 > a {
-  margin-top: 63px;
 }
 
 .subscribe_1 {
