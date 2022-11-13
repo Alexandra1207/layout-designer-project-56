@@ -20,7 +20,7 @@
   }
   @include media("phone") {
     flex-direction: column;
-    row-gap: 3px;
+    // row-gap: 3px;
     align-items: flex-start;
     font-weight: 700;
   }
@@ -28,7 +28,7 @@
 
 .menu-item {
   @include media("phone") {
-    // line-height: 15.25px;
+    line-height: 13px;
     margin: 0;
   }
 }
@@ -50,8 +50,10 @@
 
 .menu-list {
   @include media("phone") {
-    display: block;
-    margin: 11px 0;
+    // display: block;
+    flex-direction: column;
+    row-gap: 3px;
+    margin: 17px 0 18px;
   }
 }
 

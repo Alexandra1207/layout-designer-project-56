@@ -434,7 +434,6 @@ h3 {
 @media only screen and (max-width: 560px) {
   .menu {
     flex-direction: column;
-    row-gap: 3px;
     align-items: flex-start;
     font-weight: 700;
   }
@@ -442,6 +441,7 @@ h3 {
 
 @media only screen and (max-width: 560px) {
   .menu-item {
+    line-height: 13px;
     margin: 0;
   }
 }
@@ -457,8 +457,9 @@ h3 {
 
 @media only screen and (max-width: 560px) {
   .menu-list {
-    display: block;
-    margin: 11px 0;
+    flex-direction: column;
+    row-gap: 3px;
+    margin: 17px 0 18px;
   }
 }
 
