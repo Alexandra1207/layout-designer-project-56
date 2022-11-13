@@ -1,5 +1,5 @@
 .pricing-title {
-  margin-bottom: 47px;
+  margin-bottom: 49px;
 }
 
 .pricing-item {
@@ -11,12 +11,16 @@
 
   border-radius: 1rem;
   @include media("desktop") {
-    height: 595px;
-    padding-top: 16px;
+    // height: 595px;
+    padding-top: 15px;
   }
   @include media("phone") {
     max-width: 374px;
   }
+}
+
+#page-pricing > div > div.pricing-item.subscribe_1 > a {
+  margin-top: 63px;
 }
 
 @include img("subscribe_1");

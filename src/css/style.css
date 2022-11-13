@@ -429,7 +429,6 @@ h3 {
 @media only screen and (max-width: 992px) {
   .menu {
     justify-content: space-between;
-    margin-bottom: 17px;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -443,7 +442,6 @@ h3 {
 
 @media only screen and (max-width: 560px) {
   .menu-item {
-    line-height: 15.25px;
     margin: 0;
   }
 }
@@ -552,7 +550,7 @@ h3 {
 }
 
 .pricing-title {
-  margin-bottom: 47px;
+  margin-bottom: 49px;
 }
 
 .pricing-item {
@@ -564,14 +562,17 @@ h3 {
 }
 @media only screen and (max-width: 1200px) {
   .pricing-item {
-    height: 595px;
-    padding-top: 16px;
+    padding-top: 15px;
   }
 }
 @media only screen and (max-width: 560px) {
   .pricing-item {
     max-width: 374px;
   }
+}
+
+#page-pricing > div > div.pricing-item.subscribe_1 > a {
+  margin-top: 63px;
 }
 
 .subscribe_1 {
