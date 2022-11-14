@@ -1,5 +1,8 @@
 .pricing-title {
-  margin-bottom: 49px;
+  margin-bottom: 47px;
+  @include media("phone") {
+    margin-bottom: 49px;
+  }
 }
 
 .pricing-item {
