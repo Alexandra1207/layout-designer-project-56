@@ -1,5 +1,6 @@
 .banner {
   padding: 200px 0;
+  
   @include media("phone") {
     padding: 248px 0 203px;
   }
@@ -9,6 +10,7 @@
 
 .banner-subtitle {
   margin: 0 0 32px;
+
   @include media("tablet") {
     margin-bottom: 16px;
   }
@@ -36,15 +38,16 @@
     }
   }
   &-name {
+
     @include media("tablet") {
-      margin: 0 0 24px 0;
+      margin: 0 0 24px;
     }
   }
 }
 
 .input-access::placeholder {
   color: $white;
-  font: bold 14px/16px "Roboto", sans-serif;
+  font: bold 14px/16px Roboto, sans-serif;
 }
 
 .form-info {

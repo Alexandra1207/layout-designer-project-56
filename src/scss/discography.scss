@@ -1,5 +1,6 @@
 .disc-title {
   font-size: 18px;
+  
   @include media("phone") {
     font-weight: normal;
   }

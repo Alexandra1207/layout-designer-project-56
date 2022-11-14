@@ -6,6 +6,7 @@
 
 .new-title {
   font-size: 30px;
+
   @include media("phone") {
     font-size: 16px;
   }
@@ -17,14 +18,17 @@
     align-items: center;
     text-align: center;
   }
+
   @include media("tablet") {
     text-align: start;
   }
 }
+
 .new-box {
   max-width: 575px;
   width: 100%;
   height: 286px;
+
   @include media("phone") {
     height: 256px;
   }
@@ -33,26 +37,24 @@
 .new-img {
   width: 575px;
   height: 286px;
+
   @include media("phone") {
     width: 376px;
     height: 186px;
   }
 }
 
-.new-title {
-  @include media("phone") {
-    margin-bottom: 16px;
-  }
-}
-
 .box-date {
   font-size: 12px;
+
   @include media("desktop") {
     justify-content: center;
   }
+
   @include media("tablet") {
     justify-content: start;
   }
+
   @include media("phone") {
     align-items: flex-start;
   }

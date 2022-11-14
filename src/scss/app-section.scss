@@ -8,6 +8,7 @@
 .app-content {
   max-width: 600px;
   width: 100%;
+  
   @include media("tablet") {
     margin: 0 auto;
   }
@@ -20,9 +21,11 @@
 
 .app-img {
   margin-right: 123px;
+
   @include media("desktop") {
     margin-right: 0;
   }
+
   @include media("tablet") {
     order: -1;
     width: 550px;

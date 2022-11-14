@@ -1,18 +1,18 @@
 @font-face {
   font-weight: 400;
-  font-family: "Roboto";
+  font-family: Roboto;
   src: url("../fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-weight: 500;
-  font-family: "Roboto";
+  font-family: Roboto;
   src: url("../fonts/Roboto-Medium.ttf");
 }
 
 @font-face {
   font-weight: 700;
-  font-family: "Roboto";
+  font-family: Roboto;
   src: url("../fonts/Roboto-Bold.ttf");
 }
 
@@ -54,6 +54,7 @@ $breakpoints: (
 
 @mixin media($width) {
   $width: map_get($breakpoints, $width);
+
   @media only screen and (max-width: $width) {
     @content;
   }
@@ -73,10 +74,12 @@ $breakpoints: (
   width: 250px;
   height: 250px;
   margin-bottom: 11px;
+
   @include media("tablet-2") {
     width: 200px;
     height: 200px;
   }
+  
   @include media("tablet") {
     width: 137px;
     height: 137px;

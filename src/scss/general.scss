@@ -11,6 +11,7 @@ body {
   font: 400 16px/1.5 Roboto, sans-serif;
   color: $grey;
   background-color: $black;
+
   @include media("phone") {
     font-size: 16px;
   }
@@ -62,12 +63,15 @@ h2 {
 
 h1 {
   font-size: 60px;
+
   @include media("tablet-2") {
     font-size: 45px;
   }
+
   @include media("tablet") {
     font-size: 40px;
   }
+
   @include media("phone") {
     font-size: 30px;
   }
@@ -75,9 +79,11 @@ h1 {
 
 h2 {
   font-size: 38px;
+
   @include media("tablet-2") {
     font-size: 28px;
   }
+
   @include media("phone") {
     font-size: 18px;
   }
@@ -87,6 +93,7 @@ h3 {
   font-size: 24px;
   line-height: 1.5;
   font-weight: 400;
+
   @include media("phone") {
     font-size: 16px;
   }

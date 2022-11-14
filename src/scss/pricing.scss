@@ -1,5 +1,6 @@
 .pricing-title {
   margin-bottom: 47px;
+  
   @include media("phone") {
     margin-bottom: 49px;
   }
@@ -13,10 +14,12 @@
   padding: 1.5rem;
 
   border-radius: 1rem;
+  
   @include media("desktop") {
     height: 595px;
     padding-top: 16px;
   }
+  
   @include media("phone") {
     max-width: 374px;
   }
@@ -36,10 +39,12 @@
 
 .pricing-types {
   margin-bottom: 41px;
+  
   @include media("desktop") {
     justify-content: space-evenly;
     gap: 50px;
   }
+  
   @include media("phone") {
     margin-bottom: 40px;
   }

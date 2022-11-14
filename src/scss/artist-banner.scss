@@ -1,5 +1,6 @@
 .artist-banner {
   padding: 250px 0 225px;
+  
   @include media("phone") {
     padding-top: 225px;
   }
