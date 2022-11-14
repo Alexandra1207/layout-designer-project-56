@@ -579,9 +579,9 @@ h3 {
 }
 
 @media only screen and (max-width: 560px) {
-  .subscribe_1,
-.subscribe_2,
-.subscribe_3 {
+  .subscribe-1,
+.subscribe-2,
+.subscribe-3 {
     background-position: top;
   }
 }

@@ -29,9 +29,9 @@
 @include img("subscribe-2");
 @include img("subscribe-3");
 
-.subscribe_1,
-.subscribe_2,
-.subscribe_3 {
+.subscribe-1,
+.subscribe-2,
+.subscribe-3 {
   @include media("phone") {
     background-position: top;
   }
