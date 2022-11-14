@@ -8,7 +8,7 @@
 .app-content {
   max-width: 600px;
   width: 100%;
-  
+
   @include media("tablet") {
     margin: 0 auto;
   }

@@ -42,7 +42,7 @@
 
 .repeat-4-250 {
   grid-template-columns: repeat(4, 250px);
-  
+
   @include media("desktop") {
     grid-template-columns: repeat(3, 1fr);
   }

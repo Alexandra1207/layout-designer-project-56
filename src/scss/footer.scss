@@ -1,7 +1,7 @@
 .footer-top {
   padding: 3rem 0;
   border-bottom: 2px solid $grey;
-  
+
   @include media("phone") {
     border-bottom: 1px solid $grey;
   }

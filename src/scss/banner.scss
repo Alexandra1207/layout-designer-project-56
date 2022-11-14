@@ -1,6 +1,6 @@
 .banner {
   padding: 200px 0;
-  
+
   @include media("phone") {
     padding: 248px 0 203px;
   }
@@ -37,8 +37,8 @@
       width: 100%;
     }
   }
-  &-name {
 
+  &-name {
     @include media("tablet") {
       margin: 0 0 24px;
     }

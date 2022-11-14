@@ -16,7 +16,7 @@
   @include media("tablet-2") {
     justify-content: space-between;
   }
-  
+
   @include media("phone") {
     flex-direction: column;
     align-items: flex-start;
