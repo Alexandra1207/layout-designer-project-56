@@ -42,12 +42,6 @@ select {
 a,
 button {
   cursor: pointer;
-  transition: all 0.5s;
-}
-
-a:hover,
-button:hover {
-  opacity: 0.5;
 }
 
 a {

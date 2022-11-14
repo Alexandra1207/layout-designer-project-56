@@ -89,12 +89,6 @@ select {
 a,
 button {
   cursor: pointer;
-  transition: all 0.5s;
-}
-
-a:hover,
-button:hover {
-  opacity: 0.5;
 }
 
 a {
@@ -566,20 +560,20 @@ h3 {
   }
 }
 
-.subscribe_1 {
-  background-image: url("../images/subscribe_1.png");
+.subscribe-1 {
+  background-image: url("../images/subscribe-1.png");
   background-position: center;
   background-size: cover;
 }
 
-.subscribe_2 {
-  background-image: url("../images/subscribe_2.png");
+.subscribe-2 {
+  background-image: url("../images/subscribe-2.png");
   background-position: center;
   background-size: cover;
 }
 
-.subscribe_3 {
-  background-image: url("../images/subscribe_3.png");
+.subscribe-3 {
+  background-image: url("../images/subscribe-3.png");
   background-position: center;
   background-size: cover;
 }
