@@ -459,7 +459,7 @@ h3 {
   .menu-list {
     flex-direction: column;
     row-gap: 3px;
-    margin: 17px 0 17px;
+    margin: 17px 0 18px;
   }
 }
 
@@ -472,7 +472,6 @@ h3 {
 @media only screen and (max-width: 560px) {
   .search {
     width: 100%;
-    height: 26px;
   }
 }
 
@@ -487,7 +486,7 @@ h3 {
 }
 @media only screen and (max-width: 560px) {
   .banner {
-    padding: 246px 0 205px;
+    padding: 248px 0 203px;
   }
 }
 
