@@ -26,11 +26,6 @@ $purple: #5328a1;
 $dark-orange: #95390c;
 $white: #fff;
 
-@mixin img {
-  background-position: center;
-  background-size: cover;
-}
-
 .container {
   max-width: 1240px;
   width: 100%;
